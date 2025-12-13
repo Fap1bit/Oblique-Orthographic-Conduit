@@ -1,6 +1,6 @@
 # Oblique Orthographic Conduit
 
-**Oblique Orthographic Conduit** 是一款兼具功能性与极致顺滑体验的轻量工具。  
+**Oblique Orthographic Conduit** 是一款兼具功能性与极致顺滑体验的轻量桌面工具。  
 它的初衷是为了：
 
 > Bringing seamless ease to your desktop，  
