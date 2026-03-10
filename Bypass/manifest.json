@@ -1,0 +1,12 @@
+{
+  "loader": {
+    "name": "Oblique Orthographic Conduit Loader",
+    "version": "0.9.0",
+    "build_time": "2026-03-09T00:00:00Z"
+  },
+  "alpha": {
+    "name": "Oblique Orthographic Conduit",
+    "version": "2.5.0",
+    "build_time": "2026-03-09T10:00:00Z"
+  }
+}
