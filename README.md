@@ -1,6 +1,6 @@
 # Oblique Orthographic Conduit
 
-**Oblique Orthographic Conduit（**当前版本：v2.5 · Loader 1.0.1 · Windows x64**）** 是一款面向 Windows 的悬浮桌面工具，集成文本阅读与搜索、AI 对话和截图识别。
+**Oblique Orthographic Conduit**（当前版本：v2.5 · Loader 1.0.1 · Windows x64） 是一款面向 Windows 的悬浮桌面工具，集成文本阅读与搜索、AI 对话和截图识别。
 
 通过可调透明度、简洁的操作界面与平滑的窗口动画，让功能随手可用。
 
@@ -14,12 +14,10 @@
 > Leaving no trace, it operates light,  
 > Dynamically floating, just out of sight.  
 > Balanced perfectly for those who demand.
+
 <br>
 
----
-<br>
-
-### ✨ Features 功能
+## ✨ Features 功能
 
 - **文本阅读与搜索**：载入本地文本，搜索关键词并切换匹配结果。
 - **AI 对话**：使用自己的 API Key、接口地址与模型进行对话，支持数学公式显示。
@@ -27,12 +25,10 @@
 - **悬浮窗口**：调整透明度、字体、尺寸和位置，支持缩小为恢复按钮。
 - **个性化设置**：通过设置界面或 `config.ini` 调整外观、快捷键和 AI 参数。
 - **统一启动与更新**：由 `loader.exe` 管理 Alpha 启动、模块更新与 loader 自更新。
+
 <br>
 
----
-<br>
-
-### 🚀 Quick Start 快速开始
+## 🚀 Quick Start 快速开始
 
 1. 获取完整发布包 `OOC-v2.5-Windows-x64.zip`，解压到有写入权限的目录。
 2. 联系作者获取授权，在 `config.ini` 中填写许可证和 AI 配置。
@@ -54,10 +50,7 @@ OOC/
 
 <br>
 
----
-<br>
-
-### ⚙️ Configuration 首次配置
+## ⚙️ Configuration 首次配置
 
 编辑程序目录中的 `config.ini`，填写以下项目：
 
@@ -86,10 +79,7 @@ directory = screenshots
 
 <br>
 
----
-<br>
-
-### 🎛️ Interface 界面操作
+## 🎛️ Interface 界面操作
 
 以下字母和符号是**界面按钮的标签**。
 
@@ -105,7 +95,7 @@ directory = screenshots
 
 搜索按钮会在载入非空文本后显示。恢复按钮的尺寸与位置可在设置中调整，默认尺寸为 `2 × 2`，实际显示随系统缩放变化。
 
-#### AI 输入框中的本地命令
+### AI 输入框中的本地命令
 
 | 命令 | 功能 |
 | --- | --- |
@@ -116,10 +106,7 @@ directory = screenshots
 
 <br>
 
----
-<br>
-
-### ⌨️ Shortcuts 默认快捷键
+## ⌨️ Shortcuts 默认快捷键
 
 | 快捷键 | 功能 |
 | --- | --- |
@@ -134,10 +121,7 @@ directory = screenshots
 
 <br>
 
----
-<br>
-
-### 🔄 Updates 自动更新
+## 🔄 Updates 自动更新
 
 启动 loader 后，程序会在后台检查更新，并在窗口底部显示状态。Alpha 在加载前按检查周期检查更新，默认间隔为 24 小时。
 
@@ -151,7 +135,7 @@ directory = screenshots
 
 关闭 loader 后，已启动的 Alpha 可以继续运行。重新打开 loader 可继续查看和管理该模块。
 
-#### 从旧版迁移
+### 从旧版迁移
 
 使用旧启动程序或 GitHub 更新源的用户，请先将新版完整包解压到新目录，再迁移自己的 `config.ini` 和截图等用户文件。配置中使用绝对路径时，请检查路径是否仍然有效。
 
@@ -159,10 +143,7 @@ directory = screenshots
 
 <br>
 
----
-<br>
-
-### ❓ FAQ 常见问题
+## ❓ FAQ 常见问题
 
 **提示 `Update unavailable` 或 SSL 连接错误？**  
 表示此次更新检查或下载未完成。请检查访问 Google Drive 的网络连接与代理设置，再重新启动 loader。已有可用本地版本会保留；仅凭这条提示无法确定具体的网络故障原因。
@@ -181,10 +162,7 @@ directory = screenshots
 
 <br>
 
----
-<br>
-
-### 📌 Notes 使用说明
+## 📌 Notes 使用说明
 
 - 当前发布包面向 **Windows x64**。
 - 许可证与 API Key 属于个人配置，请勿随公开发布包或代码仓库分享。
